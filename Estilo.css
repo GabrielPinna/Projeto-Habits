@@ -1,4 +1,21 @@
+
+/* Configurações gerais */
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+/* Configurações conteúdo */
+
 body{
 		background-color: #09090a;
-		color: #fff;
+}
+
+button{
+		padding: 16px 24px;
+		border-radius: 8px;
+		border: 1px solid #8B5CF6;
+		
 }
