@@ -3,6 +3,10 @@
 
 	<head>
 
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,9 +18,50 @@
 
 	<body>
 
-		<img src="./Assets/logo.svg" alt="Logomarca do aplicativo Habits">
+		<header>
 
-		<button>+ Registrar o meu dia</button>
+			<img src="./Assets/logo.svg" alt="Logomarca do aplicativo Habits"> <!-- Logo -->
+
+			<button><img src="./Assets/plus.svg" alt="Icone sinal de mais roxo"> Registrar o meu dia</button> <!-- Botão -->
+
+		</header>	
+
+		<form>
+			
+			<div class="habits">
+
+				<div class="habit"><img src="./Assets/corredor.svg" alt="Icone pessoa correndo"></div>
+				<div class="habit"><img src="./Assets/agua.svg" alt="Icone beber agua"></div>
+				<div class="habit"><img src="./Assets/comer.svg" alt="Icone comida"></div>
+					
+			</div>
+
+			<div class="days">
+					
+				<div class="day">
+						
+					<div>03/01</div>
+					<input type="checkbox" name="corredor">
+					<input type="checkbox" name="agua">
+					<input type="checkbox" name="comida">
+
+				</div>	
+
+				<div class="day">
+						
+					<div>04/01</div>
+
+						<input type="checkbox" name="corredor">
+						<input type="checkbox" name="agua">
+						<input type="checkbox" name="comida">
+
+					</div>	
+
+				</div>
+
+			</div>
+
+		</form>
 
 	</body>
 
