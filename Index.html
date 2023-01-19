@@ -22,7 +22,15 @@
 
 			<img src="./Assets/logo.svg" alt="Logomarca do aplicativo Habits"> <!-- Logo -->
 
-			<button><img src="./Assets/plus.svg" alt="Icone sinal de mais roxo"> Registrar o meu dia</button> <!-- Botão -->
+			<button><img src="./Assets/plus.svg" alt="Icone sinal de mais roxo">
+
+				<div>
+
+					Registrar o meu dia
+
+				</div>
+
+			</button> <!-- Botão -->
 
 		</header>	
 
@@ -30,38 +38,20 @@
 			
 			<div class="habits">
 
-				<div class="habit"><img src="./Assets/corredor.svg" alt="Icone pessoa correndo"></div>
-				<div class="habit"><img src="./Assets/agua.svg" alt="Icone beber agua"></div>
-				<div class="habit"><img src="./Assets/comer.svg" alt="Icone comida"></div>
-					
+				<div class="habit" data-name="run"><img src="./Assets/corredor.svg" alt="Icone pessoa correndo"></div>
+				<div class="habit" data-name="water"><img src="./Assets/agua.svg" alt="Icone beber agua"></div>
+				<div class="habit" data-name="food"><img src="./Assets/comer.svg" alt="Icone comida"></div>
+				<div class="habit" data-name="sleep"><img src="./Assets/dormir.svg" alt="Icone Dormindo"></div>
+				<div class="habit" data-name="workout"><img src="./Assets/malhar.svg" alt="Icone Malhando"></div>
+				
 			</div>
 
-			<div class="days">
-					
-				<div class="day">
-						
-					<div>03/01</div>
-					<input type="checkbox" name="corredor">
-					<input type="checkbox" name="agua">
-					<input type="checkbox" name="comida">
-
-				</div>	
-
-				<div class="day">
-						
-					<div>04/01</div>
-
-						<input type="checkbox" name="corredor">
-						<input type="checkbox" name="agua">
-						<input type="checkbox" name="comida">
-
-					</div>	
-
-				</div>
-
-			</div>
+			<div class="days"></div>
 
 		</form>
+
+		<script src="https://cdn.jsdelivr.net/gh/maykbrito/libs/NLWSetup/source/NLWSetup.js"></script>
+		<script src="./script.js"></script>
 
 	</body>
 
