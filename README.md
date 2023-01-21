@@ -1,6 +1,6 @@
 # Projeto-Habits
 
- Projeto Habits - NLW Setup
+ Projeto Habits - NLW Setup.
 
  Olá pessoal!
  Esse projeto está sendo desenvolvido no evento NLW Setup da Rocketseat.
