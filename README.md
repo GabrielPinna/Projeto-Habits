@@ -1,9 +1,6 @@
 # Projeto-Habits
 
- <h1>Projeto Habits - NLW Setup</h1>
-
- <img scr="./Assets/folder.png">
-
+<img scr="./Assets/folder.png">
 
  Olá pessoal!
  Esse projeto foi desenvolvido no evento NLW Setup da Rocketseat.
