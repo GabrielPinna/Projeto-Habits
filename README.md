@@ -1,6 +1,6 @@
 # Projeto-Habits
 
-<img scr="./Assets/folder.png">
+![Imagem].Assets/folder.png
 
  Olá pessoal!
  Esse projeto foi desenvolvido no evento NLW Setup da Rocketseat.
